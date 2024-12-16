@@ -6,6 +6,18 @@
 
 int main()
 {
+std::srand(std::time(0));
+
+std::cout << "Choose an option below: " << std::endl;
+
+
+
+
+
+
+
+
+
 
   return 0;
 }
