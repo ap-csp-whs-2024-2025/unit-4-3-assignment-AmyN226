@@ -38,34 +38,67 @@ int main()
       {
         std::cout << "Enter two numbers\n";
         std::cin >> num1 >> num2;
-        std::cout << "Their sum is " << (num1 + num2) << std::endl;
+        std::cout << "The sum is " << (num1 + num2) << std::endl;
       }
       else
     {
       if (user_input ==2);
       { 
         std::cout << "Enter two numbers" << std::endl;
-        std:: cin >> num 1 >> num2;
-        std::cout << "Their difference is " << (num1 - num2) << std::endl;
+        std:: cin >> num1 >> num2;
+        std::cout << "The difference is " << (num1 - num2) << std::endl;
       }
       else 
       {
-        if (user_input)
+        if (user_input == 3);
+        {
+          std::cout << "Enter two numbers" << std::endl;
+          std::cin >> num1 >> num 2;
+          std::cout << "The product is " << (num1 * num2) << std::endl;
+        }
+        else
+        {
+          if (user_input == 4)
+          {
+            std::cout << "Enter two numbers" << std::endl;
+            std::cin >> numerator >> denominator;
+           if (denominator == 0)
+           {
+            std::cout << "Error" << std::endl;
+           }
+           else
+           {
+            std::cout << "The quotient is " << (numerator / denominator) << std::endl;
+           }
+          }
+          else
+          {
+            if (user_input == 5)
+            {
+              std::cout << "Enter a number" << std::endl;
+              std::cin >> num1;
+              if (num1 < 0)
+              {
+                std::cout << "Error" << std::endl;
+              }
+              else
+              {
+                std::cout << "The square root of " << num1 << "is " << sqrt(num1) << std::endl;
+              }
+            }
+            else
+            {
+              if (user_input != 99)
+              {
+                std::cout << "Choose an option again" << std::endl;
+                }
+              }
+            }
+          }
+        }
       }
     }
-
-
-
-
-
-
-
-
-
-    }
-
-
-
   }
+  
   return 0;
 }
